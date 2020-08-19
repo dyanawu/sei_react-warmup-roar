@@ -8,8 +8,11 @@ export default class Students extends Component {
     let studentList = students;
 
     return (
-      studentList.map(student => (
-        <StudentRow student={student}/>
+      studentList.map((student, i) => (
+        <StudentRow
+          student={student}
+          key={i}
+        />
       ))
     );
   }

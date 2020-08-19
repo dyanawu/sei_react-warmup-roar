@@ -74,7 +74,6 @@ export default class StudentRow extends Component {
     let colorClass = this.state.colorClass;
 
     return (
-
       <div className="container">
         <div
           className="card"
